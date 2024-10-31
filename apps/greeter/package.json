@@ -6,7 +6,6 @@
     "lint": "eslint ."
   },
   "type": "module",
-  "packageManager": "pnpm@9.12.2",
   "dependencies": {
     "@pnpm-workspace/shared": "workspace:"
   },
