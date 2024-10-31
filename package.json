@@ -1,0 +1,7 @@
+{
+  "name": "@pnpm-workspace/source",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@9.12.2",
+  "license": "ISC"
+}
