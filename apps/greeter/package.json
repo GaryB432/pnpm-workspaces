@@ -2,7 +2,8 @@
   "name": "@pnpm-workspace/greeter",
   "version": "0.0.1",
   "scripts": {
-    "build": "rimraf dist && tsc --listEmittedFiles"
+    "build": "rimraf dist && tsc --listEmittedFiles",
+    "lint": "eslint ."
   },
   "type": "module",
   "packageManager": "pnpm@9.12.2",
@@ -12,8 +13,12 @@
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
     "@tsconfig/strictest": "^2.0.5",
+    "eslint": "^9.13.0",
+    "eslint-plugin-gb": "^9.1.0",
+    "globals": "^15.11.0",
     "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.12.2"
   }
 }
