@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "@tsconfig/node20/tsconfig.json",
+    "@tsconfig/strictest/tsconfig.json"
+  ],
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "lib": ["es2023", "DOM"]
+  },
+  "exclude": ["**/*.spec.ts", "dist"],
+  "include": ["**/*.ts"]
+}
