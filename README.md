@@ -5,6 +5,9 @@ Exploration of [Fast, disk space efficient package manager | pnpm](https://pnpm.
 ## Usage
 
 ```
+npx prettier . --write
+pnpm run --recursive test
+pnpm run --recursive lint
 pnpm run --recursive build
 node ./apps/greeter/dist/app/main.js
 ```
